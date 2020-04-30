@@ -2,13 +2,13 @@
 <br>
 <strong>A deep learning model to detect mask and non mask wearing people.</strong>
 <br>
-<br>
+
 We all are dealing with global pandemic.In such situation,Mask is proven to be the best defender from virus.<br>
 Detection of mask will help community to monitor mask and non mask wearing people in real time with high level deep learning model.<br>
 I had made a mask and non mask wearing face detection model.<br>
 The model is build over the wonderful <strong>keras implementation of retinanet object detection developed by <a  href="https://github.com/fizyr/keras-retinanet1">Fiyzr</a></strong>
 <br>
-<br>
+
 <h2>Retinanet Overview</h2>
 <br>
 RetinaNet is a single, unified network composed of a backbone network and two task-specific subnetworks. The backbone is responsible for computing a conv feature map over an entire input image and is an off-the-self convolution network. The first subnet performs classification on the backbones output; the second subnet performs convolution bounding box regression.
@@ -23,11 +23,11 @@ To know more about retinanet view <a href="https://medium.com/@14prakash/the-int
 <br>
 <br>
 <h2>Detection Model</h2>
-The Data for mask and non mask wearing faces was not available anywhere.I made the dataset which you can download from <a href="https://drive.google.com/file/d/1Iz4rYUWJRXY_UG0VDwMpRAG2Oi8LrvKl/view?usp=sharing">here</a>
+The Data for mask and non mask wearing faces was not available anywhere.I made the dataset which you can download from <a href="https://drive.google.com/file/d/1Iz4rYUWJRXY_UG0VDwMpRAG2Oi8LrvKl/view?usp=sharing">here.</a>
 <br>
 <h3>Steps to develop model:</h3>
 Make sure to have image dataset.<br>
-The images need to be labeled which can be done by using <a href="https://github.com/tzutalin/labelImg">Labelimg</a><br>
+The images need to be labeled which can be done by using <a href="https://github.com/tzutalin/labelImg">Labelimg.</a><br>
 Make sure to fulfil the input requirements for the model.<br>
 Run the model by changing the require fields as given in usage.
 <br>
@@ -35,7 +35,7 @@ Run the model by changing the require fields as given in usage.
 <h2>Usage:</h2>
 <h3>1. Create annotations using tool labelimg which create annotations in pascalvoc format.</h3>
 
-<h3>2. Convert annotations into fiyzr format by</h3>
+<h3>2. Convert annotations into fiyzr format by </h3>
 create a zip file containing training dataset images and annotations with the same filename <br>
 Upload zip file in Google Drive, get Drive file id, and substitute the DATASET_DRIVEID value.<br>
 Run cell that iterates over the xml files and creates annotations.csv file
