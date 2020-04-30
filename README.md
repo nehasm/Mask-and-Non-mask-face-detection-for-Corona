@@ -48,7 +48,7 @@ It’s a good option to start from a pretrained model instead of training a mode
 <br>
  `!keras_retinanet/bin/train.py --freeze-backbone --random-transform --weights {PRETRAINED_MODEL} --batch-size 8 --steps 500 --epochs 25 csv annotations.csv classes.csv`
 <br>
-<h6>Let’s analyze each argument passed to the script.</h6>
+<strong>Let’s analyze each argument passed to the script.</strong>
 <strong>freeze-backbone:</strong> freeze the backbone layers, particularly useful when we use a small dataset, to avoid overfitting<br>
 <strong>random-transform:</strong> randomly transform the dataset to get data augmentation<br>
 <strong>weights:</strong> initialize the model with a pretrained model (your own model or one released by Fizyr)<br>
@@ -73,9 +73,9 @@ You can change the values of THRES_SCORE, which represents the confidence thresh
  
 <h3>5. Test</h3>
 Test your model by uploading various different images in the following funtion:
-<br>
- `img_inference(img_infer)`
- <br>
+
+`img_inference(img_infer)`
+
 <strong>The output from this model is:</strong>
 <br>
     <img width="250" height="300" src="https://github.com/nehasm/Mask-and-Non-mask-face-detection/blob/master/output/output1.PNG" alt="darkbackground" border="0">
