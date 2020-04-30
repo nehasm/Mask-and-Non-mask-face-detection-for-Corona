@@ -20,7 +20,7 @@ To know more about model working view [here](https://medium.com/@14prakash/the-i
 
 Mask Detection Model
 
-The Data for mask and non mask wearing faces was not available anywhere.I made the dataset which is now available at kaggle [here].
+The Data for mask and non mask wearing faces was not available anywhere.I made the dataset which is can be download from [here](https://drive.google.com/file/d/1Iz4rYUWJRXY_UG0VDwMpRAG2Oi8LrvKl/view?usp=sharing).
 
 Steps to develop model:
 * Make sure to have image dataset
