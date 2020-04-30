@@ -48,7 +48,7 @@ It’s a good option to start from a pretrained model instead of training a mode
 <br>
  `!keras_retinanet/bin/train.py --freeze-backbone --random-transform --weights {PRETRAINED_MODEL} --batch-size 8 --steps 500 --epochs 25 csv annotations.csv classes.csv`
 <br>
-<strong>Let’s analyze each argument passed to the script.</strong>
+<strong>Let’s analyze each argument passed to the script.</strong><br>
 <strong>freeze-backbone:</strong> freeze the backbone layers, particularly useful when we use a small dataset, to avoid overfitting<br>
 <strong>random-transform:</strong> randomly transform the dataset to get data augmentation<br>
 <strong>weights:</strong> initialize the model with a pretrained model (your own model or one released by Fizyr)<br>
