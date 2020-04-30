@@ -29,14 +29,14 @@ To know more about model working view <a href="https://medium.com/@14prakash/the
 The Data for mask and non mask wearing faces was not available anywhere.I made the dataset which you can download from [here](https://drive.google.com/file/d/1Iz4rYUWJRXY_UG0VDwMpRAG2Oi8LrvKl/view?usp=sharing).
 <br>
 <h3>Steps to develop model:</h3>
-* Make sure to have image dataset.<br>
-* The images need to be labeled which can be done by using <a href="https://github.com/tzutalin/labelImg><strong>Labelimg</strong>.</a><br>
-* Make sure to fulfil the input requirements for the model.<br>
-* Run the model by changing the require fields as given in usage.
+Make sure to have image dataset.<br>
+The images need to be labeled which can be done by using <a href="https://github.com/tzutalin/labelImg><strong>Labelimg</strong></a><br>
+Make sure to fulfil the input requirements for the model.<br>
+Run the model by changing the require fields as given in usage.
 <br>
 <br>
   
-<h2>Usage:<h2>
+<h2>Usage:</h2>
   
 <br>
 <br>
