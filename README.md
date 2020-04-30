@@ -85,7 +85,8 @@ Test your model by uploading various different images in the following funtion:
 <h4>6. Check your model in real time data</h4>
 For the futher testing of model,the video is passed into model to detect the classes.
 Pass the correct video_path and output_path as shown in repository.<br>
-<strong>Get the output by using following funtion:</strong><br>
+<strong>Get the output by using following funtion:</strong>
+
 `run_detection_video(video_path)`
 
 To check the output from this model <a href="https://drive.google.com/file/d/1oNG2glGKtfNl-2mXL-e4Y4TEABMDbSbY/view?usp=sharing">Click here</a>
