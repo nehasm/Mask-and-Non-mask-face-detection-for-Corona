@@ -3,7 +3,7 @@
 <strong>A deep learning model to detect mask and non mask wearing people.</strong>
 <br>
 <br>
-We all are dealing with global pandemic.In such situation,Mask is prove to be the best defender from virus.<br>
+We all are dealing with global pandemic.In such situation,Mask is proven to be the best defender from virus.<br>
 Detection of mask will help community to monitor mask and non mask wearing people in real time with high level deep learning model.<br>
 I had made a mask and non mask wearing face detection model.<br>
 The model is build over the wonderful <strong>keras implementation of retinanet object detection developed by <a  href="https://github.com/fizyr/keras-retinanet1">Fiyzr</a></strong>
@@ -19,7 +19,7 @@ RetinaNet is a single, unified network composed of a backbone network and two ta
 <br>
 <strong>Box Regression Subnet:</strong> Similar to classification net used but the parameters are not shared. Outputs the object location with respect to anchor box if an object exists. smooth_l1_loss with sigma equal to 3 is applied as the loss function to this part of the sub-network.
 <br>
-To know more about model working view <a href="https://medium.com/@14prakash/the-intuition-behind-retinanet-eb636755607d">here.</a>
+To know more about retinanet view <a href="https://medium.com/@14prakash/the-intuition-behind-retinanet-eb636755607d">here.</a>
 <br>
 <br>
 <h2>Detection Model</h2>
@@ -90,7 +90,7 @@ Pass the correct video_path and output_path as shown in repository.<br>
 `run_detection_video(video_path)`
 
 To check the output from this model <a href="https://drive.google.com/file/d/1oNG2glGKtfNl-2mXL-e4Y4TEABMDbSbY/view?usp=sharing">Click here</a>
-Hence,this was the complete implementation of object detection model Retinanet from fiyzr for mask and non mask wearing face detction. 
+Hence,this was the complete implementation of object detection model with Retinanet from fiyzr for mask and non mask wearing face detction. 
    
 
      
