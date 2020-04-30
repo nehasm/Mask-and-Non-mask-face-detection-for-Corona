@@ -10,7 +10,7 @@ The model is build over the wonderful <strong>keras implementation of retinanet 
 <br>
 <br>
 <br>
-## `Overview of Retinanet`
+## `Detection Model`
 <br>
 <br>
 RetinaNet is a single, unified network composed of a backbone network and two task-specific subnetworks. The backbone is responsible for computing a conv feature map over an entire input image and is an off-the-self convolution network. The first subnet performs classification on the backbones output; the second subnet performs convolution bounding box regression.
@@ -21,7 +21,7 @@ RetinaNet is a single, unified network composed of a backbone network and two ta
 <br>
 <strong>Box Regression Subnet:</strong> Similar to classification net used but the parameters are not shared. Outputs the object location with respect to anchor box if an object exists. smooth_l1_loss with sigma equal to 3 is applied as the loss function to this part of the sub-network.
 <br>
-To know more about model working view [here](https://medium.com/@14prakash/the-intuition-behind-retinanet-eb636755607d).
+To know more about model working view <a href="https://medium.com/@14prakash/the-intuition-behind-retinanet-eb636755607d">here.</a>
 <br>
 <br>
 <br>
