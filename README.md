@@ -7,9 +7,8 @@ We all are dealing with global pandemic.In such situation,Mask is prove to be th
 Detection of mask will help community to monitor mask and non mask wearing people in real time with high level deep learning model.<br>
 I had made a mask and non mask wearing face detection model.<br>
 The model is build over the wonderful <strong>keras implementation of retinanet object detection developed by <a  href="https://github.com/fizyr/keras-retinanet1">Fiyzr</a></strong>
-
-
-
+<br>
+<br>
 ## `Overview of Retinanet`
 <br>
 RetinaNet is a single, unified network composed of a backbone network and two task-specific subnetworks. The backbone is responsible for computing a conv feature map over an entire input image and is an off-the-self convolution network. The first subnet performs classification on the backbones output; the second subnet performs convolution bounding box regression.
