@@ -24,11 +24,9 @@ To know more about model working view <a href="https://medium.com/@14prakash/the
 <br>
 <br>
 <br>
-<h2Detection Model</h2>
-<br>
+<h2>Detection Model</h2>
 <br>
 The Data for mask and non mask wearing faces was not available anywhere.I made the dataset which you can download from [here](https://drive.google.com/file/d/1Iz4rYUWJRXY_UG0VDwMpRAG2Oi8LrvKl/view?usp=sharing).
-<br>
 <br>
 <h3>Steps to develop model:</h3>
 * Make sure to have image dataset.<br>
