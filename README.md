@@ -30,7 +30,7 @@ The Data for mask and non mask wearing faces was not available anywhere.I made t
 <br>
 <h3>Steps to develop model:</h3>
 Make sure to have image dataset.<br>
-The images need to be labeled which can be done by using <a href="https://github.com/tzutalin/labelImg><strong>Labelimg</strong></a><br>
+The images need to be labeled which can be done by using <a href="https://github.com/tzutalin/labelImg">Labelimg</a><br>
 Make sure to fulfil the input requirements for the model.<br>
 Run the model by changing the require fields as given in usage.
 <br>
