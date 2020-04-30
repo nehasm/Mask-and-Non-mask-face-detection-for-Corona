@@ -44,7 +44,7 @@ Run cell that iterates over the xml files and creates annotations.csv file
 Fizyr offers various parameters, described in <a href="https://github.com/fizyr/keras-          retinanet/blob/c841da27f540084d27e971b6d00c178ff005d344/keras_retinanet/bin/train.py#L358">Github</a>, to run and optimize this step.
 
 It’s a good option to start from a pretrained model instead of training a model from scratch. Fizyr released a model based on     ResNet50 architecture, pretrained on Coco dataset.I had used the same for this model.You can download it from <a href="https://github.com/fizyr/keras-retinanet/releases">here.</a>
-<h6>Train your dataset with</h6>
+<strong>Train your dataset with</strong>
 <br>
  `!keras_retinanet/bin/train.py --freeze-backbone --random-transform --weights {PRETRAINED_MODEL} --batch-size 8 --steps 500 --epochs 25 csv annotations.csv classes.csv`
 <br>
