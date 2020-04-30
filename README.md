@@ -9,7 +9,9 @@ I had made a mask and non mask wearing face detection model.<br>
 The model is build over the wonderful <strong>keras implementation of retinanet object detection developed by <a  href="https://github.com/fizyr/keras-retinanet1">Fiyzr</a></strong>
 <br>
 <br>
+<br>
 ## `Overview of Retinanet`
+<br>
 <br>
 RetinaNet is a single, unified network composed of a backbone network and two task-specific subnetworks. The backbone is responsible for computing a conv feature map over an entire input image and is an off-the-self convolution network. The first subnet performs classification on the backbones output; the second subnet performs convolution bounding box regression.
 <br>
@@ -29,10 +31,11 @@ To know more about model working view [here](https://medium.com/@14prakash/the-i
 <br>
 The Data for mask and non mask wearing faces was not available anywhere.I made the dataset which you can download from [here](https://drive.google.com/file/d/1Iz4rYUWJRXY_UG0VDwMpRAG2Oi8LrvKl/view?usp=sharing).
 <br>
+<br>
 #### `Steps to develop model:`
-* Make sure to have image dataset.
-* The images need to be labeled which can be done by using **[labelimg](https://github.com/tzutalin/labelImg).**
-* Make sure to fulfil the input requirements for the model.
+* Make sure to have image dataset.<br>
+* The images need to be labeled which can be done by using **[labelimg](https://github.com/tzutalin/labelImg).**<br>
+* Make sure to fulfil the input requirements for the model.<br>
 * Run the model by changing the require fields as given in usage.
 <br>
 <br>
