@@ -30,6 +30,16 @@ Steps to develop model:
 
 Usage:
 
+1. Create annotations using tool labelimg which create annotations in pascalvoc format.
+2. Convert annotations into fiyzr format by 
+   a. create a zip file containing training dataset images and annotations with the same filename 
+   b. Upload zip file in Google Drive, get Drive file id, and substitute the DATASET_DRIVEID value.
+   c. Run cell that iterates over the xml files and creates annotations.csv file
+3. Model training:
+    Fizyr offers various parameters, described in [Github](https://github.com/fizyr/keras-        retinanet/blob/c841da27f540084d27e971b6d00c178ff005d344/keras_retinanet/bin/train.py#L358), to run and optimize this step.
+
+    It’s a good option to start from a pretrained model instead of training a model from scratch. Fizyr released a model based on     ResNet50 architecture, pretrained on Coco dataset.
+
 
 
 
