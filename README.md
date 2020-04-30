@@ -24,7 +24,6 @@ To know more about model working view <a href="https://medium.com/@14prakash/the
 <br>
 <h2>Detection Model</h2>
 <br>
-
 The Data for mask and non mask wearing faces was not available anywhere.I made the dataset which you can download from <a href="https://drive.google.com/file/d/1Iz4rYUWJRXY_UG0VDwMpRAG2Oi8LrvKl/view?usp=sharing">here</a>
 <br>
 <h3>Steps to develop model:</h3>
@@ -36,7 +35,6 @@ Run the model by changing the require fields as given in usage.
 <br>
 <h2>Usage:</h2>
 <br>
-
 <h4>1. Create annotations using tool labelimg which create annotations in pascalvoc format.</h4>
 
 <h4>2. Convert annotations into fiyzr format by</h4>
@@ -48,11 +46,11 @@ Run cell that iterates over the xml files and creates annotations.csv file
 Fizyr offers various parameters, described in <a href="https://github.com/fizyr/keras-          retinanet/blob/c841da27f540084d27e971b6d00c178ff005d344/keras_retinanet/bin/train.py#L358">Github</a>, to run and optimize this step.
 
 It’s a good option to start from a pretrained model instead of training a model from scratch. Fizyr released a model based on     ResNet50 architecture, pretrained on Coco dataset.I had used the same for this model.You can download it from <a href="https://github.com/fizyr/keras-retinanet/releases">here.</a>
-Train your dataset with
+<h6>Train your dataset with</h6>
 <br>
-   `!keras_retinanet/bin/train.py --freeze-backbone --random-transform --weights {PRETRAINED_MODEL} --batch-size 8 --steps 500 --epochs 25 csv annotations.csv classes.csv`
+ `!keras_retinanet/bin/train.py --freeze-backbone --random-transform --weights {PRETRAINED_MODEL} --batch-size 8 --steps 500 --epochs 25 csv annotations.csv classes.csv`
 <br>
-`Let’s analyze each argument passed to the script.`
+<h6>Let’s analyze each argument passed to the script.</h6>
 <strong>freeze-backbone:</strong> freeze the backbone layers, particularly useful when we use a small dataset, to avoid overfitting
 <strong>random-transform:</strong> randomly transform the dataset to get data augmentation
 <strong>weights:</strong> initialize the model with a pretrained model (your own model or one released by Fizyr)
