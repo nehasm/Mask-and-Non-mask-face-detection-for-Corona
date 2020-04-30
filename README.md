@@ -67,7 +67,7 @@ Usage:
     Test your model by uploading various different images in the following funtion:
     `img_inference(img_infer)`
     The output from this model is:
-    
+    <img width="200" src="https://github.com/nehasm/Mask-and-Non-mask-face-detection/blob/master/output/output1.PNG" alt="darkbackground" border="0"></a>
 (optional)
 6.  Check your model in real time data
     For the futher testing of model,the video is passed into model to detect the classes.
