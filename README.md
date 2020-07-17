@@ -90,7 +90,7 @@ Pass the correct video_path and output_path as shown in repository.<br>
 `run_detection_video(video_path)`
 
 To check the output from this model <a href="https://drive.google.com/file/d/1oNG2glGKtfNl-2mXL-e4Y4TEABMDbSbY/view?usp=sharing">Click here</a>
-Hence,this was the complete implementation of object detection model with Retinanet from fiyzr for mask and non mask wearing face detection. 
+Hence,this was the complete implementation of object detection model with Retinanet from fiyzr for mask and non mask wearing faces detection. 
    
 
      
